@@ -1,6 +1,6 @@
 import * as React from "react";
 import * as PropTypes from "prop-types";
-import {Todo, TodoStatus} from "./../state/Todo";
+import {Todo, TodoStatus} from "./../../state/todos/Todo";
 
 interface TodoProps {
     title:string;

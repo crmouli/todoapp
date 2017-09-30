@@ -1,5 +1,5 @@
 import * as React from "react";
-import {Todo,TodoStatus} from "./../state/Todo";
+import {Todo,TodoStatus} from "./../../state/todos/Todo";
 import {TodoItem} from "./TodoItem";
 import {DoneItem} from "./DoneItem";
 import * as PropTypes from "prop-types";
@@ -9,6 +9,7 @@ interface TodoListProps {
   createTodo(event:React.KeyboardEvent<HTMLInputElement>):void;
   markAllDone():void;
 }
+
 export class TodoList extends React.Component<TodoListProps, any> {
     static propTypes = {
         createTodo: PropTypes.func.isRequired,

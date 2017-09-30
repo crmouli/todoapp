@@ -1,5 +1,5 @@
 import * as React from "react";
-import {Todo,TodoStatus} from "./../state/Todo";
+import {Todo,TodoStatus} from "./../../state/todos/Todo";
 import {TodoItem} from "./TodoItem";
 import {DoneItem} from "./DoneItem";
 
